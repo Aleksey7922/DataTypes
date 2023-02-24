@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -7,18 +7,18 @@ void main()
 	//cout << true << endl;
 	//cout << false << endl;
 	cout << sizeof(int) << endl;
-	cout << INT_MIN << " ... " << INT_MAX << endl;//  signet(çíàêîâûé) INT-ìèíèìàëüíîå è ìàêñèìàëüíîå çíà÷åíèÿ.
-	cout << 0 << " ... " << UINT_MAX << endl << endl;//unsignet(áåççíàêîâûé) INT-ìàêñèìàëüíîå çíà÷åíèå.
+	cout << INT_MIN << " ... " << INT_MAX << endl;//  signet(Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) INT-Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð¸ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ.
+	cout << 0 << " ... " << UINT_MAX << endl << endl;//unsignet(Ð±ÐµÐ·Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) INT-Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ.
 	cout << sizeof(short) << endl;
-	cout << 0 << " ... " << USHRT_MAX << endl;//unsignet(áåççíàêîâûé) short- ìàêñèìàëüíîå çíà÷åíèå.
-	cout << SHRT_MIN << " ... " << USHRT_MAX << endl << endl;//signet(çíàêîâûé) short- îò ìèíèìàëüíîãî äî ìàêñèìàëüíîãî çíà÷åíèÿ 
-	// ÂÎÏÐÎÑ : ïî÷åìó USHRT â íà÷àëå ñòðîêè âûäàåò îøèáêó "ÍÅÎÁÜßÂËÅÍÍÛÉ ÈÄÅÍÒÈÔÈÊÀÒÎÐ" ?
+	cout << 0 << " ... " << USHRT_MAX << endl;//unsignet(Ð±ÐµÐ·Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) short- Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ.
+	cout << SHRT_MIN << " ... " << USHRT_MAX << endl << endl;//signet(Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) short- Ð¾Ñ‚ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð´Ð¾ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ 
+	// Ð’ÐžÐŸÐ ÐžÐ¡ : Ð¿Ð¾Ñ‡ÐµÐ¼Ñƒ USHRT Ð² Ð½Ð°Ñ‡Ð°Ð»Ðµ ÑÑ‚Ñ€Ð¾ÐºÐ¸ Ð²Ñ‹Ð´Ð°ÐµÑ‚ Ð¾ÑˆÐ¸Ð±ÐºÑƒ "ÐÐ•ÐžÐ‘Ð¬Ð¯Ð’Ð›Ð•ÐÐÐ«Ð™ Ð˜Ð”Ð•ÐÐ¢Ð˜Ð¤Ð˜ÐšÐÐ¢ÐžÐ " ?
 	cout << sizeof(long) << endl;
-	cout << 0 << " ... " << ULONG_MAX << endl;//unsignet(áåççíàêîâûé) long - ìàêñèìàëüíîå çíà÷åíèå.
-	cout << LONG_MIN << " ... " << ULONG_MAX << endl << endl;//signet(çíàêîâûé) îò ìèíèìàëüíîãî äî ìàêñèìàëüíîãî çíà÷åíèÿ.
+	cout << 0 << " ... " << ULONG_MAX << endl;//unsignet(Ð±ÐµÐ·Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) long - Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ.
+	cout << LONG_MIN << " ... " << ULONG_MAX << endl << endl;//signet(Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) Ð¾Ñ‚ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð´Ð¾ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ.
 	cout << sizeof(long long) << endl;
-	cout << 0 << " ... " << ULLONG_MAX << endl;//unsignet(áåççíàêîâûé) long long - ìàêñèìàëüíîå çíà÷åíèå 
-	cout << LLONG_MIN << " ... " << LLONG_MAX << endl << endl << endl << endl;  //signet(çíàêîâûé) long long -îò ìèíèìàëüíîãî äî ìàêñèìàëüíîãî çíà÷åíèÿ 
+	cout << 0 << " ... " << ULLONG_MAX << endl;//unsignet(Ð±ÐµÐ·Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) long long - Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ 
+	cout << LLONG_MIN << " ... " << LLONG_MAX << endl << endl << endl << endl;  //signet(Ð·Ð½Ð°ÐºÐ¾Ð²Ñ‹Ð¹) long long -Ð¾Ñ‚ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð´Ð¾ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ 
 	// float
 
 
